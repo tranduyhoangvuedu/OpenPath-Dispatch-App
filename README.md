@@ -1,17 +1,15 @@
-# openpath_app
+# OpenPath Dispatch 
 
-A new Flutter project.
+A B2B crowdsourced mapping and logistics platform designed to track real-time mobility barriers, construction, and accessibility hazards. Developed by Nexus Corp.
 
-## Getting Started
+## Current Market 
+* **Beta Testing Phase:** Ho Chi Minh City, Vietnam 
+* **Target Expansion:** Portland, Oregon (May 2027)
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+* **Frontend:** Flutter (Web/Mobile)
+* **Backend:** Supabase (PostgreSQL, Row Level Security)
+* **Mapping Engine:** OpenStreetMap via flutter_map
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Architecture Overview
+OpenPath utilizes a CRUD architecture to allow delivery fleets and couriers to drop location-based obstacle pins (e.g., Blocked Sidewalks, Construction). The data is instantly synchronized globally via Supabase, bypassing standard mapping limitations to provide hyper-accurate, last-mile routing.
