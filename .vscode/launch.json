@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "OpenPath Web",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "args": [
+                "--web-browser-flag",
+                "--disable-web-security"
+            ]
+        }
+    ]
+}
